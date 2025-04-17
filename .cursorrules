@@ -1,0 +1,13 @@
+// Army Green Color Palette
+// Concept: Classic, reliable, and professional. Uses army green as the core, supported by strong neutrals.
+
+// Color Definitions
+primary = #556B2F     // Dark Olive Green - Solid, dependable base
+secondary = #8FBC8F   // Dark Sea Green / Muted Sage - Softer green for backgrounds or secondary elements
+light = #F5F5DC       // Beige - Warm, light background for readability
+linen = #FAF0E6       // Linen - Alternative warm background
+dark = #36454F        // Charcoal Grey / Slate - Stronger than black, less harsh
+highlight = #B8860B   // DarkGoldenrod - A touch of muted gold for emphasis
+gold = #DAA520        // Goldenrod - Alternative gold for emphasis, suggesting value or achievement
+
+// Vibe: Trustworthy, stable, focused, serious but not intimidating

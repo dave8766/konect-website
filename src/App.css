@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #556B2F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #F5F5DC; 
 }
 
 .App-link {
-  color: #61dafb;
+  color: #DAA520;
 }
 
 @keyframes App-logo-spin {
@@ -35,6 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+:root {
+  /* Army Green Color Palette */
+  --army-primary: #556B2F;    /* Dark Olive Green - Solid, dependable base */
+  --army-secondary: #8FBC8F;  /* Dark Sea Green / Muted Sage - Softer green */
+  --army-light: #F5F5DC;      /* Beige - Warm, light background */
+  --army-linen: #FAF0E6;      /* Linen - Alternative warm background */
+  --army-dark: #36454F;       /* Charcoal Grey / Slate - Text color */
+  --army-highlight: #B8860B;  /* DarkGoldenrod - Emphasis color */
+  --army-gold: #DAA520;       /* Goldenrod - Alternative emphasis color */
 }
 
 /* App-specific styles can be added here if needed */

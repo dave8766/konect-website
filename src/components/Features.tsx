@@ -59,21 +59,21 @@ const Features: React.FC = () => {
   ];
 
   return (
-    <section id="features" className="py-20 bg-gray-50">
+    <section id="features" className="py-20 bg-army-light">
       <div className="container mx-auto px-4">
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold text-gray-800">Why Choose Konect</h2>
-          <p className="text-xl text-gray-600 mt-4">Your all-round fitness hub with everything you need to achieve your goals</p>
+          <h2 className="text-4xl font-bold text-army-dark">Why Choose Konect</h2>
+          <p className="text-xl text-army-dark mt-4">Your all-round fitness hub with everything you need to achieve your goals</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition duration-300">
-              <div className="text-indigo-600 mb-4 inline-block p-3 bg-indigo-100 rounded-lg">
+              <div className="text-army-primary mb-4 inline-block p-3 bg-army-linen rounded-lg">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <h3 className="text-xl font-bold text-army-dark mb-3">{feature.title}</h3>
+              <p className="text-army-dark">{feature.description}</p>
             </div>
           ))}
         </div>

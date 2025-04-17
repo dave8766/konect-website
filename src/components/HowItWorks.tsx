@@ -28,24 +28,24 @@ const HowItWorks: React.FC = () => {
     <section id="how-it-works" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold text-gray-800">How Konect Works</h2>
-          <p className="text-xl text-gray-600 mt-4">Simple steps to transform your fitness journey</p>
+          <h2 className="text-4xl font-bold text-army-dark">How Konect Works</h2>
+          <p className="text-xl text-army-dark mt-4">Simple steps to transform your fitness journey</p>
         </div>
 
         <div className="flex flex-wrap">
           {steps.map((step, index) => (
             <div key={index} className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
               <div className="relative">
-                <div className="absolute inset-0 bg-indigo-500 opacity-10 rounded-lg"></div>
+                <div className="absolute inset-0 bg-army-primary opacity-10 rounded-lg"></div>
                 <div className="relative p-8 text-center">
-                  <div className="inline-flex items-center justify-center w-16 h-16 mx-auto mb-6 bg-indigo-600 rounded-full text-white text-2xl font-bold">
+                  <div className="inline-flex items-center justify-center w-16 h-16 mx-auto mb-6 bg-army-primary rounded-full text-white text-2xl font-bold">
                     {step.number}
                   </div>
-                  <h3 className="text-xl font-bold mb-4">{step.title}</h3>
-                  <p className="text-gray-600">{step.description}</p>
+                  <h3 className="text-xl font-bold mb-4 text-army-dark">{step.title}</h3>
+                  <p className="text-army-dark">{step.description}</p>
                   {index < steps.length - 1 && (
                     <div className="hidden lg:block absolute top-1/2 -right-4 transform translate-x-1/2">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-army-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                       </svg>
                     </div>
@@ -57,7 +57,7 @@ const HowItWorks: React.FC = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <button className="bg-indigo-600 text-white font-bold px-8 py-3 rounded-lg hover:bg-indigo-700 transition duration-300">
+          <button className="bg-army-highlight text-white font-bold px-8 py-3 rounded-lg hover:bg-army-gold transition duration-300">
             Get Started Today
           </button>
         </div>
