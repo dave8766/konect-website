@@ -1,26 +1,22 @@
 import './App.css';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import HowItWorks from './components/HowItWorks';
-import Testimonials from './components/Testimonials';
-import Pricing from './components/Pricing';
-import Footer from './components/Footer';
+import { useState } from 'react';
+import LandingPage from './components/LandingPage';
+import MainApp from './components/MainApp';
 
 function App() {
-  return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-grow">
-        <Hero />
-        <Features />
-        <HowItWorks />
-        <Testimonials />
-        <Pricing />
-      </main>
-      <Footer />
-    </div>
-  );
+  const [showMainApp, setShowMainApp] = useState(false);
+
+  const handleContinue = (isAthlete: boolean) => {
+    if (isAthlete) {
+      setShowMainApp(true);
+    }
+  };
+
+  if (!showMainApp) {
+    return <LandingPage onContinue={handleContinue} />;
+  }
+
+  return <MainApp />;
 }
 
 export default App;
