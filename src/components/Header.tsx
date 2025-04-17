@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className="text-2xl font-bold text-indigo-600">Konnect</span>
+              <span className="text-2xl font-bold text-indigo-600">Konect</span>
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-8">

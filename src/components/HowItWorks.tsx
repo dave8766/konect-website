@@ -28,7 +28,7 @@ const HowItWorks: React.FC = () => {
     <section id="how-it-works" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold text-gray-800">How Konnect Works</h2>
+          <h2 className="text-4xl font-bold text-gray-800">How Konect Works</h2>
           <p className="text-xl text-gray-600 mt-4">Simple steps to transform your fitness journey</p>
         </div>
 

@@ -62,7 +62,7 @@ const Features: React.FC = () => {
     <section id="features" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold text-gray-800">Why Choose Konnect</h2>
+          <h2 className="text-4xl font-bold text-gray-800">Why Choose Konect</h2>
           <p className="text-xl text-gray-600 mt-4">Your all-round fitness hub with everything you need to achieve your goals</p>
         </div>
 

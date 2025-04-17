@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-wrap">
           <div className="w-full md:w-4/12 mb-8 md:mb-0">
-            <h3 className="text-3xl font-bold mb-6">Konnect</h3>
+            <h3 className="text-3xl font-bold mb-6">Konect</h3>
             <p className="mb-4 text-gray-400">
               LinkedIn for coaches. Your all-round fitness hub connecting you with elite coaches for personalized training.
             </p>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
           <div className="w-full md:w-4/12">
             <h4 className="text-lg font-semibold mb-4">Subscribe to our newsletter</h4>
             <p className="text-gray-400 mb-4">
-              Get the latest news and updates from Konnect
+              Get the latest news and updates from Konect
             </p>
             <form>
               <div className="flex flex-wrap md:flex-nowrap">
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Konnect. All rights reserved.
+            &copy; {new Date().getFullYear()} Konect. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white mr-4">Privacy Policy</a>

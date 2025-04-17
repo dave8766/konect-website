@@ -3,13 +3,13 @@ import React from 'react';
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
-      quote: "Konnect transformed my approach to fitness. The personalized coaching and integrated platform makes it so easy to stay on track.",
+      quote: "Konect transformed my approach to fitness. The personalized coaching and integrated platform makes it so easy to stay on track.",
       name: "Sarah Johnson",
       title: "Fitness Enthusiast",
       avatar: "https://randomuser.me/api/portraits/women/32.jpg"
     },
     {
-      quote: "As a coach, Konnect allows me to provide comprehensive training plans to my clients while tracking their progress all in one place.",
+      quote: "As a coach, Konect allows me to provide comprehensive training plans to my clients while tracking their progress all in one place.",
       name: "Michael Rodriguez",
       title: "Professional Trainer",
       avatar: "https://randomuser.me/api/portraits/men/45.jpg"
