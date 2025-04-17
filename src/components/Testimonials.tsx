@@ -18,7 +18,7 @@ const Testimonials: React.FC = () => {
     },
     {
       quote: "As an Olympic coach, Konect allows me to monitor my athletes' progress in real-time and adjust their training plans instantly, no matter where we are competing in the world.",
-      name: "Ian Thompson",
+      name: "Ian Hulme",
       title: "Olympic Swimming Coach",
       avatar: "/Ian.jpeg",
       featured: false
